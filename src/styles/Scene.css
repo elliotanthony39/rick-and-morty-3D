@@ -1,0 +1,12 @@
+.Conteiner-3D {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+@media screen and (max-width: 666px) {
+  .Conteiner-3D {
+    height: 130vh;
+  }
+}
