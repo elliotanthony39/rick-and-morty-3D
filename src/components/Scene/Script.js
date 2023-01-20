@@ -59,10 +59,6 @@ gltfLoader.load("./model/rick-and-morty-garage.glb", (gltf) => {
 const al = new THREE.AmbientLight(0xffffff, 1);
 scene.add(al);
 
-//axes helper
-const axesHelper = new THREE.AxesHelper(5);
-scene.add(axesHelper);
-
 //Init and mount the scene
 export const initScene = (mountRef) => {
   currentRef = mountRef.current;
